@@ -1,0 +1,139 @@
+body {
+background-color: #70adb5;
+font-family: Arial, serif; 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Fjalla+One&family=Oi&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+}
+
+
+h1 {
+	color: #5c6e91;
+	font-family: 'Dancing Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Oi', cursive;
+	font-weight: 200;
+	letter-spacing: 1px;
+	font-size: 35px;
+	text-transform: uppercase;
+}
+
+
+h2 {
+	color: #2c061f;
+    font-family: 'Oi', cursive;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+p {
+	color: #5b5b5b;
+}
+
+ul {
+	color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: #03506f;
+}
+
+a:hover{
+	color: #456268;
+}
+
+.container {
+	width:700px;
+	margin: 40px auto;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0,1);
+	padding: 20px;
+}
+
+.card-white {
+	background-color: #eeeeee;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color: #70adb5;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue: hover{
+	background-color: black;
+	color: white;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #70adb5;;
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+
+}
+
+div {
+	background: #686d76;
+    margin: 30px;
+    padding:20px;
+    width: 550px;
+    border-top: 2px solid #2c061f;
+    border-right: 2px solid #2c061f;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+#picture {
+	border-radius: 70%;
+	font-weight: 20;
+
+}
